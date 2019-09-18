@@ -1,0 +1,7 @@
+1. Pacman cannot go trough walls.
+ 	2a.If Pacman tries to go through a wall, the wall stops him
+ 	2b. If Pacman goes through a empty wall (lets call it x="500"), he comes back on the other side (lets call it x="-500")
+
+2. The ghosts do not come out all at the same time
+3.  Possible movements of ghosts and Pacman are only in x and y (as it twodimensional), so up,down,left, right;
+4. If Pacman eats most of the point in the lower part of the screen, the ghosts will mostly move in the upper part.

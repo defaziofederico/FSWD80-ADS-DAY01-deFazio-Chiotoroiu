@@ -1,0 +1,30 @@
+STARTPROGRAM
+input data
+
+----------------
+(Bounded loop running)
+const class "min" 	1 Min="60"
+const class "hour" 	1 hour="3600" 
+const  class "day" 	1 Day="86400s"  
+const class "week" 	1 Week="604800"
+<!-- "4234213523"=integer
+"day,hour,etc"=string -->
+------------------
+if integer=true
+
+var class:week (integer) /604800
+
+var class:day  result of var class week/86400
+
+var class:hour result of var class day/
+3600
+
+var class:min result of var class hour/60
+
+display result
+
+ENDPROGRAM
+
+ 
+
+
